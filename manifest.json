@@ -1,0 +1,30 @@
+{
+  "name": "WikiAger",
+  "version": "1.0",
+  "description": "Add the age next to each mention of year in Wikipedia",
+  "permissions": ["activeTab"],
+  "optional_permissions": [
+    "*://*.wikipedia.org/*",
+    "*://wikiwand.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["jquery-3.5.0.slim.min.js", "content-script.js"]
+    }
+  ],
+  "browser_action": {
+    "name": "Click to change the icon's color"
+  },
+  "icons": {
+    "16": "images/wikiAger16.png",
+    "32": "images/wikiAger32.png",
+    "48": "images/wikiAger48.png",
+    "128": "images/wikiAger128.png"
+  },
+  "manifest_version": 2
+}
