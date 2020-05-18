@@ -1,7 +1,7 @@
 {
   "name": "WikiAger",
   "version": "1.0",
-  "description": "Add the age next to each mention of year in Wikipedia",
+  "description": "Add the age next to each mention of a year in Wikipedia",
   "permissions": ["activeTab"],
   "optional_permissions": [
     "*://*.wikipedia.org/*",
