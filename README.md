@@ -3,10 +3,8 @@
 ### Add the age next to each mention of a year in Wikipedia. 
 ### No need to do the mental subtractions anymore.
 
-#### Before
-![Before](before.png)
-#### After 
-![After](after.png)
+#### Screenshot
+![Screenshot](screenshot.png)
 
 #### Works with
 [Wikipedia](https://wikipedia.org)
