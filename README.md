@@ -1,6 +1,7 @@
 # WikiAger Chrome Extension
 
-### Add the age next to each mention of a year in Wikipedia. Don't have to do the mental subtractions anymore!
+### Add the age next to each mention of a year in Wikipedia. 
+### No need to do the mental subtractions anymore.
 
 #### Before
 ![Before](before.png)
